@@ -1,7 +1,25 @@
 aid: aspinity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aspinity.png
 name: Aspinity
-description: Aspinity is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aspinity is a Pittsburgh, Pennsylvania semiconductor company that develops analog machine
+  learning (AnalogML) technology combining ultra-low-power analog signal processing with machine learning
+  for always-on, battery-operated edge AI event detection and classification. Its analogML processors
+  the AML100 and next-generation AML200 deliver TOPS-level inference in a microwatt power footprint,
+  targeting automotive vehicle-security monitoring, smart-home sensing such as glass-break and water-leak
+  detection, and IoT applications including voice and keyword detection and vibration monitoring. Aspinity
+  is a hardware and semiconductor provider and does not currently publish a public developer API, SDK, or
+  developer portal; this profile tracks its public web and security posture in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/aspinity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +29,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Semiconductors
+- Machine Learning
+- Edge AI
+- IoT
+- Analog Computing
+- Hardware
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://aspinity.com/
+- type: Blog
+  url: https://www.aspinity.com/blog/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aspinity
+- type: DomainSecurity
+  url: security/aspinity-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
