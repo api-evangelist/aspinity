@@ -1,0 +1,29 @@
+# Front Door AI Index — aspinity — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: aspinity
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: aspinity.com
+  final_host: www.aspinity.com
+  ownership: own
+  owner: aspinity
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 20
+  host_score: 20
+  density: 43.96
+  words: 455
+  tiers:
+    agentic: 1
+    core: 19
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 15
+    ML: 2
+    machine learning: 2
+    inference: 1
+    smart: 1
